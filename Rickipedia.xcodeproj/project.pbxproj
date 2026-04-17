@@ -45,11 +45,6 @@
 			path = RickipediaTests;
 			sourceTree = "<group>";
 		};
-		8396C3722F8EFA2200B8BDE3 /* RickipediaUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RickipediaUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +79,6 @@
 			children = (
 				8396C35A2F8EFA2100B8BDE3 /* Rickipedia */,
 				8396C3682F8EFA2200B8BDE3 /* RickipediaTests */,
-				8396C3722F8EFA2200B8BDE3 /* RickipediaUITests */,
 				8396C3592F8EFA2100B8BDE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,9 +155,6 @@
 			);
 			dependencies = (
 				8396C3712F8EFA2200B8BDE3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8396C3722F8EFA2200B8BDE3 /* RickipediaUITests */,
 			);
 			name = RickipediaUITests;
 			packageProductDependencies = (
